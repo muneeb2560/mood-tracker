@@ -1,0 +1,117 @@
+/* Basic Reset and Body Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Main Container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #000;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Mood Picker Styling */
+.mood-picker {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mood-btn {
+  font-size: 2rem;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mood-btn:hover {
+  background-color: #ddd;
+}
+
+/* Calendar Section Styling */
+.calendar-section {
+  margin-top: 20px;
+}
+
+/* Calendar Container: 7 columns for 7 days of the week */
+#calendarContainer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+/* Calendar Cell Styling */
+.day-cell {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Header cells (for day names) */
+.day-cell.header {
+  background-color: #000;
+  font-weight: bold;
+}
+
+/* Empty cells to fill in before the first day of the month */
+.day-cell.empty {
+  background-color: #fafafa;
+}
+
+/* Day Number and Mood Display */
+.day-number {
+  font-weight: bold;
+}
+
+.mood-display {
+  font-size: 1.5rem;
+}
+
+/* Calendar Navigation Styling */
+.calendar-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.carousel-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.calendar-header {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
