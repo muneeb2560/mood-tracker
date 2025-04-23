@@ -31,4 +31,4 @@ This app allows users to:
 ## Setup & Usage 🛠️
 1. **Clone the repository**:  
    ```bash  
-   git clone https://github.com/muneeb2560/MoodTracker.git  
+   git clone https://github.com/muneeb2560/mood-tracker.git  
